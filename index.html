@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="pannel-player-0 active-1">
+            <div class="player-name" id="name-0">
+                <h1>Player 1</h1>
+            </div>
+            <div class="player1-totalscore" id="current-score-0">
+                <h2>50</h2>
+            </div>
+            <div class="player-0-rolled-1">
+                <h3>oops! you rolled 1.</h3>
+            </div>
+        </div>
+        <div class="player-current-box-1">
+            <div class="player-current-label">Current</div>
+            <div class="player-current-score" id="current-0">11</div>
+        </div>
+        <!--second player-->
+        <div class="pannel-player-1">
+            <div class="player-name" id="name-1">
+                <h1>Player 2</h1>
+            </div>
+            <div class="player2-totalscore" id="current-score-1">
+                <h2>43</h2>
+            </div>
+            <div class="player-1-rolled-1">
+                <h3>sorry! you rolled 1.</h3>
+            </div>
+        </div>
+        <div class="player-current-box-2">
+            <div class="player-current-label">Current</div>
+            <div class="player-current-score" id="current-1">0</div>
+        </div>
+        <div class="rules-pannel" style="display: none;">
+            <h1>Goal</h1>
+            <p class="p">Be the first player to reach 50 points.</p>
+            <div class="rounder">
+                <h3>Gameplay</h3>
+                <p>On a turn, a player rolls the dice repeatedly until either:</p>
+                <li>1 IS ROLLED</li>
+                <li>THE PLAYER CHOOSES TO HOLD (STOP ROLLING)</li>
+                <P id="new">IF THE PLAYER CHOOSES TO HOLD, ALL OF THE POINTS ROLLED DURING THAT TURN ARE ADDED TO HIS OR HER SCORE
+                </P>
+                <button class="btn-back">back to game</button>
+            </div>
+        </div>
+        <div class="games-pannel">
+            <button class="btn-new" id="bh"><i class="far fa-plus-square"></i>New game</button>
+            <button class="btn-rules" id="bh"><i class="fas fa-file"></i>Rules</button>
+            <button class="btn-roll" id="bh"><i class="fas fa-dice"></i>Roll dice</button>
+            <button class="btn-hold" id="bh"><i class="fas fa-hand-paper"></i>Hold</button>
+        </div>
+        <img class="dice" src="/static/dice-6.png" alt="">
+    </div>
+    <div class="winner"></div>
+    <script src="/static/app.js"></script>
+</body>
+
+</html>
