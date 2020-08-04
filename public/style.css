@@ -428,6 +428,10 @@ right: 19%;
     }
     .player-current-box-1 {
         right: 65%;
+        top: 70%;
+    }
+    .player-current-box-2 {
+        top: 70%;
     }
     .player-current-label {
         font-size: 12px;
