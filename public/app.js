@@ -44,7 +44,7 @@ document.querySelector('.btn-hold').addEventListener('click', function(){
     document.getElementById('current-score-' + activeplayer).textContent = scores[activeplayer]
 
     //check if  the player won the game
-    if (scores[activeplayer] >= 50) {
+    if (scores[activeplayer] >= 50) {//added the 50 winning score
         document.querySelector('#name-' + activeplayer).innerHTML = '<h1>WINNER!</h1>'
         document.querySelector('.dice').style.display = 'none'
         document.querySelector('.pannel-player-' + activeplayer).classList.add('winner')
