@@ -397,6 +397,29 @@ right: 19%;
     }
 }
 @media (max-width:415px) {
+    .wrapper {
+        width: 354px;
+    }
+    .player1-totalscore {
+        font-size: 94px;
+        top: 61px;
+    }
+    .player2-totalscore {
+        font-size: 94px;
+        top: 61px;
+    }
+    .dice {
+        width: 15%;
+    }
+    .player-current-box-2 {
+        right: 13%;
+    }
+    .player-0-rolled-1 h3,
+    .player-1-rolled-1 h3 {
+    font-size: 14px;
+    position: relative;
+    top: 55px;
+    }
     .rules-pannel h1 {
         margin-top: 16px;
     }
